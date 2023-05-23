@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-
+import gsap from 'gsap'
 
 const Section = styled.section`
 width: 100vw;
