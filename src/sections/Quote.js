@@ -1,6 +1,8 @@
-import React from 'react'
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import React, { useLayoutEffect, useRef } from 'react'
 import styled, { keyframes } from 'styled-components'
-import gsap from 'gsap'
+
 
 const Section = styled.section`
 width: 100vw;
@@ -57,13 +59,33 @@ span{
     width: 100%;
     text-align: end;
     background-image:linear-gradient(-180deg, var(--gradient));
+    font-family: var(--fontR);
 
 }
 `
 
 const Quote = () => {
+  gsap.registerPlugin(ScrollTrigger)
+  const sectionRef = useRef(null);
+
+useLayoutEffect(() => {
+  let Elem = sectionRef.current;
+ 
+  let trigger = ScrollTrigger.create({
+    trigger: Elem,
+    start: "top top",
+    pin: true,
+    pinSpacing: false,
+ 
+  });
+
+ return() => {
+  if (trigger) trigger.kill();
+ };
+},[]);
+
   return (
-<Section>  
+<Section ref={sectionRef}>  
     <TextContainer>
        <Text delay="0s">  <span>&#8220;Focus and simplicity</span> </Text> 
        <Text delay="0.4s">  <span>&nbsp;&nbsp;simple can be harder than complex</span> </Text> 
