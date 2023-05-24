@@ -21,7 +21,7 @@ background-color: transparent;
 
 const PhoneModel = () => {
   return (
-    <Container>
+    <Container id="phone-model">
         <Canvas camera={{fov:14}}>
             <ambientLight intensity={2.25}/>
             <directionalLight intensity={0.4}/>

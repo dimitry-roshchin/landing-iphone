@@ -71,7 +71,8 @@ const Quote = () => {
 useLayoutEffect(() => {
   let Elem = sectionRef.current;
  
-  let trigger = ScrollTrigger.create({
+  let trigger = 
+  ScrollTrigger.create({
     trigger: Elem,
     start: "top top",
     pin: true,
@@ -91,12 +92,12 @@ useLayoutEffect(() => {
        <Text delay="0.4s">  <span>&nbsp;&nbsp;simple can be harder than complex</span> </Text> 
        <Text delay="0.8s">  <span>&nbsp;&nbsp;you have to work hard to get your thinking clean</span> </Text> 
        <Text delay="1.2s">  <span>&nbsp;&nbsp;to make it simple.&#8221;</span> </Text> 
-       <Text delay="1.6s">  <span className='author'>&#x23af;Steve Jobs</span> </Text> 
+       <Text delay="1.6s">  <span className='author'>&#x23af;&nbsp;Steve Jobs</span> </Text> 
     </TextContainer>
 
 </Section>
-  )
-}
+  );
+};
 
 export default Quote
 

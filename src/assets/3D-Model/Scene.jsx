@@ -7,13 +7,39 @@ Source: https://sketchfab.com/3d-models/apple-iphone-13-pro-max-4328dea00e47497d
 Title: Apple iPhone 13 Pro Max
 */
 
-import React, { useRef } from 'react'
+import React, { useLayoutEffect, useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
+import { gsap } from 'gsap';
+import { useThree } from '@react-three/fiber';
 
 export function Model(props) {
+ 
+ 
   const { nodes, materials } = useGLTF('/scene.gltf')
+  const group = useRef()
+  
+  let camera = useThree(state => state.camera);
+
+  useLayoutEffect(() => {
+
+    let tl= gsap.timeline({
+      scrollTrigger:{
+        trigger:"#phone-model",
+        start:"top top",
+        end:"bottom+=500 bottom"
+      }
+    })
+    
+    tl.fromTo(camera.position, {y:2}, {y:0})
+    
+  }, [])
+
+
+
+
+
   return (
-    <group {...props} dispose={null}>
+    <group ref={group} {...props} dispose={null}>
       <group scale={0.01}>
         <group scale={100}>
           <mesh geometry={nodes.Frame_Frame_0.geometry} material={materials.Frame} />
