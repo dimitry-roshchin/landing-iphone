@@ -91,7 +91,7 @@ span{
 const ProcessorSection = () => {
   return (
     <Section>
-        <Title>Fastest Processor</Title>
+        <Title>A16 Bionic Processor</Title>
         <Processor>
         <img src={a15} alt='A15 processor'/>
         </Processor>

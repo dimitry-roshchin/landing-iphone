@@ -32,7 +32,7 @@ export function Model(props) {
     
     tl.fromTo(camera.position, {y:2}, {y:0})
     
-  }, [])
+  }, [camera.position])
 
 
 
