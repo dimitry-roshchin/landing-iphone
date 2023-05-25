@@ -54,6 +54,8 @@ const Text = styled.p`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 0.2em;
+  margin-bottom: -0.2em;
   }
 
   .author {
