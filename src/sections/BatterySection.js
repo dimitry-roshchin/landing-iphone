@@ -95,7 +95,7 @@ const BatterySection = () => {
 
   return (
     <Section id="battery">
-      <Title>Go all day with single charge...</Title>
+      <Title>Go all day on a single charge...</Title>
       <Battery ref={battery}>
         <li />
         <li />

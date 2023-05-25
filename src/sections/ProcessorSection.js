@@ -122,15 +122,13 @@ const ProcessorSection = () => {
       </Processor>
       <Text>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut omnis,
-          quaerat aliquid optio veniam.
+        Still faster than all the competition at any price,
+        the 5-core GPU enables even smoother graphics for video apps and high-performance gaming,
+        and powers incredible camera features
         </span>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut.
+        The 6-core CPU handles demanding tasks smoothly and efficiently,
+         and the 16-core Neural Engine is capable of 15.8 trillion operations per second.
         </span>
       </Text>
     </Section>
