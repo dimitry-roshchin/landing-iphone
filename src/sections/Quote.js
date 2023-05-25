@@ -39,6 +39,7 @@ const Text = styled.p`
   position: relative;
   height: var(--fontmd);
   overflow: hidden;
+  line-height: 1;
 
   span {
     position: absolute;
@@ -68,13 +69,13 @@ const Text = styled.p`
 
   @media screen and (max-width: 48em) {
     font-size: var(--fontmd);
-    height: var(--fontsm);
+    height: var(--fontmd);
   }
   @media screen and (max-width: 40em) {
     width: 90%;
   }
   @media screen and (max-width: 30em) {
-    font-size: var(--fontxs);
+    font-size: var(--fontmd);
   }
 `;
 
