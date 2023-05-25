@@ -161,15 +161,16 @@ const DisplaySection = () => {
       <TextBlockRight>
         <Title>Super Retina XDR Display</Title>
         <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dignissimos ipsam.
+        Together with the best system color management, 
+        colors are precisely calibrated to deliver an optimal viewing experience.
         </Text>
       </TextBlockRight>
       <TextBlockLeft ref={container}>
         <Title>Bigger is better</Title>
         <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dignissimos ipsam.
+         Enjoy more content onscreen when browsing the web and even more text, 
+         on the new larger 6.7-inch display on iPhone 14 Pro Max, 
+
         </Text>
       </TextBlockLeft>
 
