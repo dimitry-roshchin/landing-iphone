@@ -17,7 +17,7 @@ export default function Model3({ ...props }) {
       camera.updateProjectionMatrix();
     }
         
-  }, []);
+  },);
 
   return (
     <group ref={group} {...props} dispose={null}>

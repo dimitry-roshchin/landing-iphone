@@ -79,7 +79,7 @@ mm.add({
 
       
         
-  }, []);
+  },);
 
   return (
     <group ref={group} {...props} dispose={null}>
