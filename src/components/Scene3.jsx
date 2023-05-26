@@ -10,7 +10,7 @@ export default function Model3({ ...props }) {
 
   useLayoutEffect(() => {
     camera.position.set(-0.1,0.4,5);
-    materials.Body.color.set("#9BB5CE");
+    materials.Body.color.set("");
 
     if(window.matchMedia("(max-width: 48em)").matches){
       camera.fov = 18;

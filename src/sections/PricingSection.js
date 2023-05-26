@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
-import Model3 from "../components/Scene3";
 import { AdaptiveDpr, AdaptiveEvents, Environment } from "@react-three/drei";
 import { OrbitControls } from "@react-three/drei";
 import { useRef } from "react";
 import { useContext } from "react";
 import { ColorContext } from "./../context/ColorContext";
 import { useEffect } from "react";
+import Model3 from "../components/Scene3.jsx";
 
 const Container = styled.div`
   width: 100vw;
@@ -156,7 +156,7 @@ const PricingSection = () => {
             <ambientLight intensity={1} />
             <directionalLight intensity={0.4} />
             <Suspense fallback={null}>
-              <Model3 />
+              <Model3/>
             </Suspense>
 
             <Environment preset="night" />
@@ -190,9 +190,7 @@ const PricingSection = () => {
             />
             <Color
               color="#A50011"
-              onClick={() => 
-                updateColor("#A50011", "Red", "165, 0, 17")
-              }
+              onClick={() => updateColor("#A50011", "Red", "165, 0, 17")}
             />
             <Color
               color="#215E7C"
