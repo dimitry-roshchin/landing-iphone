@@ -20,7 +20,7 @@ export default function Model({ ...props }) {
 
   useLayoutEffect(() => {
     camera.position.set(0, 2, 6);
-    materials.Body.color.set("#9BB5CE");
+    materials.Body.color.set("#574f6f");
 
     let fov = camera.fov;
 
