@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
+
 import { AdaptiveDpr, AdaptiveEvents, Environment } from "@react-three/drei";
 import { OrbitControls } from "@react-three/drei";
 import { useRef } from "react";
