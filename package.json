@@ -13,7 +13,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "styled-components": "^6.0.0-rc.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://github.com/dimitry-roshchin/landing-iphone"
   },
   "scripts": {
     "start": "react-scripts start",
