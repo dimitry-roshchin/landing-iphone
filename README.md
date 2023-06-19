@@ -1,3 +1,28 @@
+
+
+Resources Used in This Project
+"Apple iPhone 13 Pro Max" by DatSketch is licensed under Creative Commons Attribution.
+
+A15 Chipset Image
+
+Apple Logo for loading screen
+
+
+External Libraries used in this project:
+styled-components
+GSAP
+@react-three/drei
+@react-three/fiber
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
