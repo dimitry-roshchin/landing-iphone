@@ -115,7 +115,7 @@ const Quote = () => {
         </Text>
         <Text delay="0.8s">
           {" "}
-          <span>&nbsp;&nbsp;&nbsp;much bigger than any of us here.</span>{" "}
+          <span>&nbsp;&nbsp;&nbsp;much bigger than any of us here.&#8220;</span>{" "}
         </Text>
         {/* <Text delay="1.2s">
           {" "}
