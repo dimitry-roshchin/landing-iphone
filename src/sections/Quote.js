@@ -117,12 +117,6 @@ const Quote = () => {
           {" "}
           <span>&nbsp;&nbsp;&nbsp;much bigger than any of us here.&#8221;</span>{" "}
         </Text>
-        {/* <Text delay="1.2s">
-          {" "}
-          <span>
-            &nbsp;&nbsp;&nbsp;will somehow connect in your future. &#8221;
-          </span>{" "}
-        </Text> */}
         <Text delay="1.6s">
           {" "}
           <span className="author">&#x23AF; Steve Jobs</span>{" "}
